@@ -14,7 +14,6 @@ load_dotenv()
 
 bot_email = os.getenv("WEBEX_BOT_EMAIL")
 bot_token = os.getenv("WEBEX_BOT_TOKEN")
-bot_url = os.getenv("WEBEX_BOT_URL")
 bot_app_name = os.getenv("WEBEX_BOT_APP_NAME")
 
 
