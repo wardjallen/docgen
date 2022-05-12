@@ -1,5 +1,6 @@
 docx==0.2.4
 docxtpl==0.16.0
+gunicorn
 python-dotenv==0.20.0
 webex-bot==0.3.1
 webexteamssdk==1.6

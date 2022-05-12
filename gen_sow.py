@@ -18,7 +18,7 @@ sow_template = "./templates/RFP Technical Responses.docx"
 class SOW(Command):
     def __init__(self):
         super().__init__(
-            command_keyword="rfp",
+            command_keyword="sow",
             help_message="Generate SOW Technical Docs!",
             chained_commands=[SowCallback()])
         
