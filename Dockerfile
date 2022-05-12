@@ -2,6 +2,7 @@ FROM python:3.9-slim
 
 RUN useradd -r -s /bin/bash/ bot
 
+
 ENV HOME /app
 WORKDIR /app
 ENV PATH="/app/.local/bin:${PATH}"
